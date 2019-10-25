@@ -1,1 +1,18 @@
-<TXLife><UserAuthRequest><UserLoginName>UserName</UserLoginName><UserPswd><CryptType>NONE</CryptType><Pswd>passwrd</Pswd></UserPswd><UserDate>2019-05-16</UserDate><UserTime>16:50:22-07:00</UserTime><VendorApp><VendorName VendorCode="05" ParentNode="ps_123">CSC</VendorName><AppName>nbA</AppName><AppVer>1.0</AppVer></VendorApp></UserAuthRequest></TXLife>
+    <TXLife>
+      <UserAuthRequest>
+        <UserLoginName>UserName</UserLoginName>
+        <UserPswd>
+          <CryptType>NONE</CryptType>
+          <Pswd>passwrd</Pswd>
+        </UserPswd>
+        <UserDate>2019-05-16</UserDate>
+        <UserTime>16:50:22-07:00</UserTime>
+        <VendorApp>
+          <VendorName VendorCode="05" ParentNode="ps_123">
+            CSC
+          </VendorName>
+          <AppName>nbA</AppName>
+          <AppVer>1.0</AppVer>
+        </VendorApp>
+      </UserAuthRequest>
+    </TXLife>

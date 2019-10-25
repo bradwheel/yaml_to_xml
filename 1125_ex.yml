@@ -8,10 +8,10 @@ TXLife:
     UserTime: "16:50:22-07:00"
     VendorApp:
       VendorName:
-        attrs:
+        _attrs:
           VendorCode: "05"
           ParentNode: "ps_123"
-        value: "CSC"
+        _value: "CSC"
       AppName: "nbA"
       AppVer: "1.0"
 
