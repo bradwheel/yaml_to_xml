@@ -1,0 +1,17 @@
+TXLife:
+  UserAuthRequest:
+    UserLoginName: 'UserName'
+    UserPswd:
+      CryptType: "NONE"
+      Pswd: 'passwrd'
+    UserDate: "2019-05-16"
+    UserTime: "16:50:22-07:00"
+    VendorApp:
+      VendorName:
+        attrs:
+          VendorCode: "05"
+          ParentNode: "ps_123"
+        value: "CSC"
+      AppName: "nbA"
+      AppVer: "1.0"
+
