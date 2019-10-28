@@ -44,9 +44,9 @@ def handle_dict(data, indent):
         if node_attrs:
             node_value = data[tag].get('_value', '')
 
-            inner_xml += add_newline(add_indent(open_tag(tag, attrs=node_attrs), indent=indent+1))
-            inner_xml += add_newline(add_indent(node_value, indent=indent+2))
-            inner_xml += add_newline(add_indent(close_tag(tag), indent=indent+1))
+            inner_xml += add_indent(open_tag(tag, attrs=node_attrs), indent=indent+1)
+            inner_xml += node_value
+            inner_xml += add_newline(close_tag(tag))
 
             data[tag] = None
         else:
